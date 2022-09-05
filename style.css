@@ -1,0 +1,419 @@
+body{
+   margin: 0;
+    background-color: rgb(240, 240, 240);
+    
+}
+#alert{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+#alert2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.login{
+    -webkit-box-shadow: 18px 13px 42px -2px #000000; 
+    box-shadow: 18px 13px 42px -2px #060606;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    display: inline-block;
+    /*width:31%;*/
+    width: 585px;
+    height: 470px;
+    margin-top: 5%;
+    margin-left: 35%;
+    transition: 0.5s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+
+}
+.dis-up{
+    top: -200%;
+    z-index: 0;
+    position: absolute;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    
+   
+    
+    
+    background-color: rgb(102, 0, 255);
+}
+.dis-down{
+    
+    left: -100%;
+    bottom: -150%;
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    
+   
+    
+    
+    background-color: rgb(102, 0, 255);
+}
+
+#l-lgoin{
+    
+    margin-top: 15%;
+    
+}
+.email{
+    display: inline-block;
+    width: 48%;
+    border-radius: 100px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: 1px rgb(216, 213, 213) solid;
+    background-color: rgb(228, 228, 252);
+}
+.pass{
+    
+    width: 48%;
+    border: 1px rgb(216, 213, 213) solid;
+    border-radius: 100px;
+    margin-top: 5%;
+    margin-left: 25%;
+    background-color: rgb(228, 228, 252);
+}
+.label-email-login, .label-pass-login{
+    float: left;
+
+    
+}
+
+.margin1{
+    margin:6% 5% 10% 5% ;
+}
+.margin-p{
+    margin-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 23%;
+    
+}
+
+#email-login{
+    width: 99%;
+    margin-left: 2%;
+    
+    
+}
+#pass-login{
+    width: 99%;
+    float: left;
+    
+}
+#email-login, #pass-login{
+    outline-width: 0;
+    border: none;
+    border-bottom: 1px black solid;
+    background-color: rgb(228, 228, 252);
+    
+}
+
+
+#bt-login{
+    
+    
+    float: right;
+    border: none;
+    background-color: rgb(247, 123, 251);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 4%;
+    font-size: 20px;
+    transition: 0.5s;
+
+    
+}
+#bt-fp{
+    display: block;
+    clear: both;
+    margin-left: 36%;
+    margin-top: 10%;
+    
+    
+    border: none;
+    background-color: rgb(247, 123, 251);
+    
+    
+    width: 30%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#bt-signup{
+    display: inline-block;
+    direction: rtl;
+    float: left;
+    
+    border: none;
+    background-color: rgb(247, 123, 251);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 4%;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+
+
+
+
+
+#bt-login:hover{
+    width: 15%;
+    background-color: rgb(251, 153, 255);
+}
+#bt-fp:hover{
+    background-color: rgb(251, 153, 255);
+}
+#bt-signup:hover{
+    width: 20%;
+    background-color: rgb(251, 153, 255);
+}
+.pass:hover label{
+    
+    color: rgb(47, 113, 255);
+}
+.email:hover label{
+    color: rgb(47, 113, 255);
+}
+
+
+
+
+#signup{
+    -webkit-box-shadow: 50px 25px 50px 50px rgb(255, 255, 255); 
+box-shadow: 50px 25px 50px 50px rgb(255, 255, 255);
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    z-index: 0;
+    display: inline-block;
+    width: 585px;
+    height: 470px;
+    margin-top: 5%;
+    margin-left: 35%;
+    transition: 0.5s;
+    
+    
+    
+}
+#l-su{
+    margin-top: 10%;
+}
+.emailsu{
+    margin-top: 5%;
+    display: block;
+    
+}
+.passsu{
+    margin-top:10% ;
+    
+}
+
+
+.fname-margin , .lname-margin{
+    
+    margin-top: 5%;
+    margin-left: 5%;
+    
+}
+
+.fname, .lname{
+    background-color: rgb(240, 240, 240);
+    border: 1px black solid;
+    border-radius: 100px;
+    height: 50px;
+    
+    
+}
+#fname-signup, #lname-signup{
+    width: 45%;
+    border: none;
+    border-bottom: 1px black solid;
+    outline-width: 0;
+    background-color: rgb(240, 240, 240);
+}
+.fname{
+    float: left;
+}
+.lname{
+    margin-left: 50%;
+}
+#email-su{
+    width: 98%;
+    font-size: 25px;
+    outline-width: 0;
+    border-radius: 5px;
+    border: rgb(22, 22, 22) solid 1px;
+    
+}
+
+.pass-su{
+    
+    width: 98%;
+    font-size: 25px;
+    outline-width: 0;
+    border-radius: 5px;
+    border: rgb(22, 22, 22) solid 1px;
+}
+
+#bt-ca-su{
+    display: inline-block;
+    direction: rtl;
+    float: left;
+    
+    border: none;
+    background-color: rgb(247, 123, 251);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 4%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+#bt-li-su{
+    float: right;
+    border: none;
+    background-color: rgb(247, 123, 251);
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 4%;
+    font-size: 20px;
+    transition: 0.5s;
+}
+#bt-ca-su:hover{
+    background-color: rgb(251, 153, 255);
+    width: 30%;
+}
+#bt-li-su:hover{
+    width: 30%;
+    background-color: rgb(251, 153, 255);
+}
+.dis-up2{
+    left: -80%;
+    top: -195%;
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    
+   
+    
+    
+    background-color: rgb(0, 162, 255);
+}
+.dis-down2{
+    
+    right: -100%;
+    bottom: -150%;
+    z-index: -1;
+    position: absolute;
+    border-radius: 50%;
+    height: 1000px;
+    width: 1000px;
+    
+   
+    
+    
+    background-color: rgb(0, 162, 255);
+}
+.fp{
+    position: relative;
+    
+    float: left;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    width: 585px;
+    z-index: 2;
+    margin-left: 35%;
+    margin-top: 30%;
+    visibility: hidden;
+    height: 70px;
+    
+    
+    transform: 0.5;
+    
+}
+#fp-email{
+    font-size: 20px;
+    outline-color: red;
+    margin-left: 1%;
+    margin-top: 1%;
+    outline-width: 1px;
+    border: none;
+    border-bottom: 1px red solid;
+    width: 98%;
+}
+.bt-fp-email{
+    font-size: 15px;
+    float: right;
+    color: white;
+    background-color: rgb(255, 93, 93);
+    margin-top: 2%;
+}
+.bt-fp-email:hover{
+    background-color: red;
+}
+@media screen and (min-width: 0px) and (max-width: 1024px){
+
+    .login{
+        
+        margin-top: 0;
+        margin-left: 0;
+        
+        
+    
+    }
+
+    #signup{
+        
+        margin-top: 0;
+        margin-left: 0;
+        
+        
+        
+        
+    }
+    #bt-ca-su{
+        
+        width: 180px;
+        
+    }
+    #bt-li-su{
+        
+        width: 180px;
+        
+    }
+    
+#bt-login{
+    
+    
+    
+    width: 100px;
+    
+
+    
+}
+#bt-signup{
+    
+    
+    width: 100px;
+    
+    
+}
+
+
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>login</title>
+</head>
+<body>
+    
+    <div  class="login" id='login2'>
+        <div id="alert" onclick="m2()"  class="dis-up"></div>
+        <form action="#">
+        <div id="l-lgoin">
+            <div class="email">
+                <div class="margin1">
+                    
+                    <input placeholder="Email" type="email" name="email-login" id="email-login" >
+                </div>
+            </div>
+            <div class="pass">
+                <div class="margin-p">
+                    
+                    <input placeholder="password"  type="password" name="pass-login" id="pass-login">
+                </div>
+                
+                
+            </div>
+        </form>
+            <div>
+                <input  class="bt" id="bt-login" type="submit" value="> Log In">
+                
+                <input class="bt" onclick="m()" id="bt-signup" type="button" value="> Sign Up">
+                <input onclick="fp()" class="bt" id="bt-fp" type="button" value="Forgot password?">
+                
+                
+            </div>
+            
+     
+        </div>
+        <div class="dis-down"></div>
+        
+
+    </div>
+    
+    <!--signup-->
+    
+    <div class="signup" id="signup">
+        <div id="alert2" class="dis-up2"></div>
+        <form action="#">
+            <div id="l-su">
+        
+                <div class="fname">
+                    <div class="fname-margin">
+                        <label class="label-fname" for="fname-signup">First Name</label>
+                        <input type="text" name="fname-signup" id="fname-signup" >
+                    </div>
+                </div>
+                <div class="lname">
+                    <div class="lname-margin">
+                        <label class="label-lname" for="lname-signup">Last Name</label>
+                        <input type="text" name="lname-signup" id="lname-signup" >
+                    </div>
+                </div>
+                <div class="emailsu">
+                    <div class="margin-su-email">
+                        <label class="label-email-login" for="emil-su">Email</label>
+                        <input type="email" name="email-su" id="email-su" >
+                    </div>
+                </div>
+                
+                <div class="passsu">
+                    <div class="margin-sup">
+                        <label class="label-pass-su" for="pass-su">password</label>
+                        <input  type="password" name="pass-su" class="pass-su">
+                    </div>
+            
+                    
+                </div>
+        </form>
+            <div>
+                <input class="bt-su" onclick="m()" id="bt-li-su" type="button"  value="> Back to Log In">
+                
+                <input class="bt-su" type="submit" onclick="creat()"  id="bt-ca-su" value="> Create Account">
+
+            </div>
+            
+        
+          
+        
+    </div>
+    <div class="dis-down2"></div>
+    
+    
+    </div>
+    <form action="#">
+    <div id="fp" class="fp">
+        <input placeholder="Email" type="email" name="fg-email" id="fp-email">
+        <input onclick="passfg()" class="bt-fp-email" type="submit" value="Send Email">
+    </div>
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>
